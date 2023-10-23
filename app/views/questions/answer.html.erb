@@ -1,0 +1,17 @@
+<div class="border-start border-4 p-2">
+<%= params[:question] %>
+<br>
+<p>- You</p>
+</div>
+<br>
+
+<div class="border-start border-4 p-2" id="response">
+<%= @answer %>
+<br>
+<p>- Your coach</p>
+</div>
+<br>
+
+<div class="link-primary">
+<%= link_to "Ask a new question", "/ask" %>
+</div>
